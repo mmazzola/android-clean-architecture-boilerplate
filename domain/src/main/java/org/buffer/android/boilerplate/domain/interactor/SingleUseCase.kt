@@ -8,8 +8,6 @@ import io.reactivex.schedulers.Schedulers
 import org.buffer.android.boilerplate.domain.executor.PostExecutionThread
 import org.buffer.android.boilerplate.domain.executor.ThreadExecutor
 
-
-
 /**
  * Abstract class for a UseCase that returns an instance of a [Single].
  */

@@ -68,5 +68,4 @@ class BrowseActivity: AppCompatActivity(), BrowseBufferoosContract.View {
         recycler_browse.layoutManager = LinearLayoutManager(this)
         recycler_browse.adapter = browseAdapter
     }
-
 }
