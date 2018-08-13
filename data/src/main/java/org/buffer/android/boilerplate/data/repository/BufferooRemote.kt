@@ -10,7 +10,7 @@ import org.buffer.android.boilerplate.data.model.BufferooEntity
 interface BufferooRemote {
 
     /**
-     * Retrieve a list of Bufferoos, from the cache
+     * Retrieve a list of Bufferoos, from a remote service
      */
     fun getBufferoos(): Single<List<BufferooEntity>>
 
